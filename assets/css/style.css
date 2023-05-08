@@ -69,7 +69,7 @@ body {
 
 .hero-image {
   position: relative;
-  height: 350px;
+  height: 400px;
   background-image: url("../images/hero1.png");
   background-size: cover;
   background-position: center;
@@ -82,7 +82,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
-  max-height: 100%;
+  max-height: 75%;
 }
 
 /* Sign up page styling */
