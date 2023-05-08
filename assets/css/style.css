@@ -63,26 +63,20 @@ body {
 
 /* hero image and text box*/
 .hero-outer {
-  position: relative;
-  margin-top: 1px; /* Adjust margin-top as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust margin-top as needed */
 }
 
 .hero-image {
-  position: relative;
-  height: 1200px;
-  background-image: url("../images/hero1.png");
-  background-size: cover;
-  background-position: top;
-  text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-image img {
- position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
 }
 
 /* Sign up page styling */
