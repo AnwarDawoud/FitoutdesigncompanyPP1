@@ -56,12 +56,6 @@ body {
     border-bottom: 2px solid #ffffcc;
 }
 
-#hero-outer {
-    height: 480px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -69,16 +63,17 @@ body {
 
 /* hero image and text box*/
 #hero-outer {
-    height: 480px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+      width: 100%; 
+      height: auto; 
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 #hero-image {
       display: block; 
       max-width: 100%; 
-      height: auto; 
+      height: auto;
+      type 
     }
 
 #logo-stamp {
