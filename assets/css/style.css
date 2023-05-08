@@ -64,12 +64,13 @@ body {
 /* hero image and text box*/
 .hero-outer {
   position: relative;
-  margin-top: 20px; /* Adjust margin-top as needed */
+  margin-top: 0px; /* Adjust margin-top as needed */
 }
 
 .hero-image {
   position: relative;
-  height: 600px;
+  width: 100%;
+  height: auto;
   background-image: url("../images/hero1.png");
   background-size: cover;
   background-position: center;
