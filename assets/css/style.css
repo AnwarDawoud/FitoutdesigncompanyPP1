@@ -76,23 +76,17 @@ body {
 }
 
 #hero-image {
-    height: 400px;
+    height: auto;
     width: 100%;
-    background: url(../images/hero1.png) no-repeat center center;
+    background: url(../assets/images/hero1.png) no-repeat center center;
     background-size: cover;
 }
 
-#logostamp {
-    font-size: 130%;
-    font-family: Kalam, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    
+#logo-stamp {
     width: 500px;
     height: 500px;
 
-    padding-top: 40px;
+    padding-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
 
