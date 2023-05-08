@@ -76,9 +76,9 @@ body {
 }
 
 #hero-image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    repeat: no-repeat;
+    size: cover;
+    position: center center;
     width: 100%;
     height: 100%;
     opacity: 1;
