@@ -64,11 +64,12 @@ body {
 /* hero image and text box*/
 .hero-outer {
   position: relative;
+  margin-top: 20px; /* Adjust margin-top as needed */
 }
 
 .hero-image {
   position: relative;
-  height: 50%;
+  height: 400px;
   background-image: url("../images/hero1.png");
   background-size: cover;
   background-position: center;
@@ -81,7 +82,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
-  max-height: auto;
+  max-height: 100%;
+}
 
 /* Sign up page styling */
 .form-section {
