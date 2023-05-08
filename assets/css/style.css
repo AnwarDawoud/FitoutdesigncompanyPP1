@@ -16,24 +16,32 @@ body {
     margin: 0%;
     min-height: 100vh;
     }
+
     .logo {
         position: relative;
-        bottom: 50px;
-        left: 25px;
+        bottom: 30px;
+        left: 50px;
       }
+
 
     header {
     width: 100%; 
     height: auto;     
     background-color: #011f3d;
     padding: 0em;
+    margin-left: 5px
     }
+
    header div{
     color: #ffffcc;
     font-size: x-large;
     font: Arial, sans-serif;
     text-align: center;
-   }
+    margin-top: -100px;
+    padding-bottom: 60px;
+    text-shadow: -3px 5px 3px rgb(255 247 8 / 42%);
+     }
+
   nav ul {
     list-style: none;
     margin: 5px;
@@ -63,7 +71,7 @@ body {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image and text box*/
+/* hero image */
 .hero-outer {
   display: flex;
   justify-content: center;
@@ -79,9 +87,39 @@ body {
 .hero-image img {
   max-width: 100%;
   height: auto;
+  margin-left: 5px
 }
 
-/* Sign up page styling */
+   section{
+     margin: 45px
+   }
+
+ /* footer all pages styling */ 
+footer {
+    background-color: #011f3d;
+    color: rgb(252, 248, 248);
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    margin-left: 5px;
+    width: 100%;
+  }
+  
+    footer p, h4{
+    color: #ffffcc;
+    text-decoration: none;
+    width: 100%; 
+    height: auto;
+    margin-left: 25px; 
+    }
+  
+  footer p:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Sign up page styling */
 .form-section {
     clear: both;
     max-width: 800px;
@@ -154,29 +192,3 @@ body {
     font-style: italic;
     }
 
-  footer {
-    display: flex;
-    background-color: #011f3d;
-    color: rgb(252, 248, 248);
-    padding: 0px;
-    text-align: left;
-    position: relative;
-    bottom: 0;
-    left: 5px;
-    width: 100%;
-  }
-  
-    footer p, h4{
-    color: #ffffcc;
-    text-decoration: none;
-    width: 100%; 
-    height: auto;
-    margin-left: 25px; 
-    }
-  
-  footer p:hover {
-    text-decoration: underline;
-  }
-  
-  
-  
