@@ -75,16 +75,10 @@ body {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
-
 #hero-image {
     height: 1000px;
     width: 100%;
-    size: cover;
-    margin: 0;
-}
+  }
 
 #logostamp {
     font-size: 130%;
