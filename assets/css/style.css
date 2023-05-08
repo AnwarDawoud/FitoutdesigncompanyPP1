@@ -82,7 +82,6 @@ body {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url(assets/images/hero.jpg) no-repeat center center;
     background-size: cover;
 }
 
