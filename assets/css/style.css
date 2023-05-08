@@ -1,3 +1,11 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -8,18 +16,22 @@ body {
     }
     .logo {
         position: relative;
-        bottom: 0;
-        left: 0;
+        bottom: 50px;
+        left: 25px;
       }
 
     header {
     width: 100%; 
     height: auto;     
-    background-color: #0163c6;
-    color: #fff;
+    background-color: #011f3d;
     padding: 0em;
     }
-  
+   header div{
+    color: #ffffcc;
+    font-size: x-large;
+    font: Arial, sans-serif;
+    text-align: center;
+   }
   nav ul {
     list-style: none;
     margin: 1em;
@@ -33,30 +45,175 @@ body {
   }
   
   nav a {
-    color: rgb(255, 208, 0);
+    color: #ffffcc;
     text-decoration: none;
     padding: 1em;
   }
 
+
+
+ nav a:hover {
+    border-bottom: 2px solid #ffffcc;
+}
+
+#hero-outer {
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image and text box*/
+#hero-outer {
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url(/assets/images/hero.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Kalam, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    
+    width: 600px;
+    height: 120px;
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: rgba(153, 9, 185, 0.7);
+    border-radius: 20px;
+
+    bottom: 0px;
+    left: 150px;
+
+    position: absolute;
+}
+
+/* Sign up page styling */
+.form-section {
+    clear: both;
+    max-width: 800px;
+    width: 100%;
+}
+
+.form {
+    margin: 150px 10% 0 10%;
+    color: #3a3a3a;
+    background-color:#fafafa;
+    padding: 30px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form h3 {
+    margin: 10px 0 5px 0;
+}
+
+.text-input {
+    margin: 10px 8% 20px 2%;
+    background: transparent;
+    height: 25px;
+    width: 90%;
+    border: 2px solid hsl(289, 91%, 38%);
+    border-radius: 4px;
+}
+
+#message {
+    margin: 10px 0 20px 0;
+    width: 100%;
+    border: 2px solid hsl(289, 91%, 38%);
+    border-radius: 4px;
+}
+
+#message-box-label {
+    font-size: 20px;
+}
+
+.form-submit-button {
+    background: hsl(289, 91%, 38%);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Shantell Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.form-submit-button:hover {
+    background: white;
+    border: 2px solid hsl(289, 91%, 38%);
+    color: hsl(289, 91%, 38%);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Shantell Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contact-container div{
+    margin: 100px 100px 100px 100px;
+    font-size: x-large;
+    font-style: italic;
+    }
+
   footer {
-    background-color: #0163c6;
+    background-color: #011f3d;
     color: rgb(252, 248, 248);
-    padding: 20px;
+    padding: 0px;
     text-align: left;
     position: relative;
     bottom: 0;
     width: 100%;
   }
   
-  footer p {
-    color: rgb(255, 208, 0);
+    footer p, h4{
+    color: #ffffcc;
     text-decoration: none;
     width: 100%; 
-    height: auto; 
+    height: auto;
+    margin-left: 25px; 
     }
   
   footer p:hover {
     text-decoration: underline;
   }
   
- 
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    flex-shrink: 0;
+  }
