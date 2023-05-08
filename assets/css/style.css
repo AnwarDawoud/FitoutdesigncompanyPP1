@@ -69,7 +69,7 @@ body {
 
 /* hero image and text box*/
 #hero-outer {
-    height: 480px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -80,31 +80,30 @@ body {
 }
 
 #hero-image {
-    height: 400px;
+    height: 1000px;
     width: 100%;
-    background: url(/assets/images/hero.jpg) no-repeat center center;
+    background: url(/assets/images/hero1.png) no-repeat center center;
     background-size: cover;
 }
 
-#cover-text {
+#logostamp {
     font-size: 130%;
     font-family: Kalam, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: right;
     
-    width: 600px;
-    height: 120px;
+    width: 500px;
+    height: 500px;
 
     padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
 
-    background-color: rgba(153, 9, 185, 0.7);
-    border-radius: 20px;
+    
 
-    bottom: 0px;
-    left: 150px;
+    bottom: 10px;
+
 
     position: absolute;
 }
