@@ -69,8 +69,7 @@ body {
 
 .hero-image {
   position: relative;
-  width: 100%;
-  height: auto;
+  height: 500px;
   background-image: url("../images/hero1.png");
   background-size: cover;
   background-position: center;
