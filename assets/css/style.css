@@ -155,6 +155,7 @@ body {
     }
 
   footer {
+    display: flex;
     background-color: #011f3d;
     color: rgb(252, 248, 248);
     padding: 0px;
