@@ -118,6 +118,24 @@ footer {
     text-decoration: underline;
   }
   
+.social-networks {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks li {
+    list-style-type: none;
+    padding: 50px;
+}
+
+.social-networks i {
+    font-size: 200%;
+    color: #3a3a3a;
+}
   
   /* Sign up page styling */
 .form-section {
