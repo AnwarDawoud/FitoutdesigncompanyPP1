@@ -193,6 +193,18 @@ footer {
     font-style: italic;
     }
 /** social media icons**/
+.social-networks {
+  display: flex;
+}
+
+.social-networks li {
+    list-style-type: none;
+    padding: 70px;
+}
+.social-networks a {
+ 
+  margin-right: 10px; /* Adjust spacing between icons as needed */
+}
 
 .fa {
   padding: 20px;
@@ -233,7 +245,7 @@ footer {
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #cb4141;
   color: white;
 }
 
