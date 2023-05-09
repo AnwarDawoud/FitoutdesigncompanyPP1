@@ -118,6 +118,14 @@ footer {
     text-decoration: underline;
   }
   
+.facebook-icon {
+  display: inline-block;
+}
+
+.facebook-icon img {
+  width: 32px;
+  height: 32px;
+}
 .social-networks {
     height: 100%;
     display: flex;
