@@ -118,32 +118,7 @@ footer {
     text-decoration: underline;
   }
   
-.facebook-icon {
-  display: inline-block;
-}
 
-.facebook-icon img {
-  width: 32px;
-  height: 32px;
-}
-.social-networks {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-networks li {
-    list-style-type: none;
-    padding: 50px;
-}
-
-.social-networks i {
-    font-size: 200%;
-    color: #3a3a3a;
-}
   
   /* Sign up page styling */
 .form-section {
@@ -218,6 +193,7 @@ footer {
     font-style: italic;
     }
 /** social media icons**/
+
 .fa {
   padding: 20px;
   font-size: 30px;
