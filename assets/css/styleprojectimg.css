@@ -1,5 +1,4 @@
  
-   
   div.gallery {
     border: 1px solid #ccc;
   }
@@ -21,7 +20,7 @@
   
   
   .responsive {
-    /*padding: 0 6px;*/
+   /padding: 0 6px;
     float: left;
     width: 24.99999%;
   }
