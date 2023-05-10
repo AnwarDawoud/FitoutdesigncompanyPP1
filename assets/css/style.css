@@ -19,8 +19,8 @@ body {
 
     .logo {
         position: relative;
-        bottom: 30px;
-        left: 50px;
+        bottom: 25px;
+        left: 20px;
       }
 
 
@@ -29,7 +29,8 @@ body {
     height: auto;     
     background-color: #011f3d;
     padding: 0em;
-    margin-left: 5px
+    margin-left: 5px;
+      margin-right: 5px;
     }
 
    header div{
@@ -37,10 +38,14 @@ body {
     font-size: x-large;
     font: Arial, sans-serif;
     text-align: center;
-    margin-top: -100px;
-    padding-bottom: 60px;
+    /* margin-top: -100px; */
+    padding-bottom: 30px;
+     padding-left: 30px;
+     padding-right: 30px;
+     margin-left: 5px;
+     margin-right: 5px;
     text-shadow: -3px 5px 3px rgb(255 247 8 / 42%);
-     }
+    }
 
   nav ul {
     list-style: none;
@@ -57,7 +62,7 @@ body {
   nav a {
     color: #ffffcc;
     text-decoration: none;
-    padding: 5px;
+    padding: 30px;
   }
 
 
@@ -87,7 +92,8 @@ body {
 .hero-image img {
   max-width: 100%;
   height: auto;
-  margin-left: 5px
+  margin-left: 5px;
+  margin-left: 5px;
 }
 
    section{
@@ -103,15 +109,18 @@ footer {
     position: relative;
     bottom: 5px;
     margin-left: 5px;
+  margin-right: 5px;
     width: 100%;
   }
   
     footer p, h4{
     color: #ffffcc;
     text-decoration: none;
-    width: 100%; 
+    /* width: 100%; */
     height: auto;
-    margin-left: 25px; 
+    margin-left: 25px;
+      margin-right: 25px;
+      padding-bottom: 25px;
     }
   
   footer p:hover {
@@ -195,21 +204,22 @@ footer {
 /** social media icons**/
 .social-networks {
   display: flex;
+  justify-content: center;
 }
 
 .social-networks li {
     display: inline-block;
     list-style-type: none;
-    padding: 35px;
+    padding: 2px;
 }
 .social-networks a {
  
-  margin-right: 10px; /* Adjust spacing between icons as needed */
+  margin-right: 2px; /* Adjust spacing between icons as needed */
 }
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+  font-size: larger;
   width: 30px;
   text-align: center;
   text-decoration: none;
