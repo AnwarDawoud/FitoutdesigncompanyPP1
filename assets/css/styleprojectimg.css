@@ -17,10 +17,12 @@
     text-align: center;
   }
   
-  
+  * {
+    box-sizing: content-box;
+  }
   
   .responsive {
-   /padding: 0 6px;
+    padding: 0px 0px;
     float: left;
     width: 24.99999%;
   }
