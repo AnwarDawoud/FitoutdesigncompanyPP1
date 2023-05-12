@@ -1,16 +1,21 @@
- 
-  div.gallery {
-    border: 1px solid #ccc;
+div.gallery {
+    border: 2px solid rgb(3, 3, 3);
   }
   
   div.gallery:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
+  div.gallery.img {
     width: 100%;
     height: auto;
   }
+
+ /* img {
+    width: 600px;
+    aspect-ratio: auto 600 / 400;
+    height: 400px;
+}*/
   
   div.desc {
     padding: 15px;
@@ -22,7 +27,7 @@
   }
   
   .responsive {
-    padding: 0px 0px;
+    padding: 10px 10px;
     float: left;
     width: 24.99999%;
   }
@@ -45,3 +50,4 @@
     display: table;
     clear: both;
   }
+
