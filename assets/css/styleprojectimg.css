@@ -4,24 +4,24 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-  
-  .gallery-item {
-    flex: 0 0 calc(33.33% - 20px);
+
+.gallery-item {
+    flex: 0 0 calc(25% - 20px);
     margin: 10px;
 }
-  
-  .frame {
+
+.frame {
     position: relative;
 }
-  
-  .frame img {
+
+.frame img {
     width: 333px;
-    
+
     margin: 15px;
     border-radius: 15px;
 }
-  
-  .caption {
+
+.caption {
     position: relative;
     bottom: 0px;
     left: 15px;
@@ -31,22 +31,22 @@
     color: #fff;
     border-radius: 15px;
 }
-  
-  .caption h3,
-  .caption p {
+
+.caption h3,
+.caption p {
     margin: 15px;
     padding: 0;
 }
-  
-  .caption h3 {
+
+.caption h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px;
-    padding-top: 15px;
+    padding: 15px;
 }
-  
-  .caption p {
+
+.caption p {
     font-size: 14px;
     margin: 15px;
-    padding-bottom: 15px;
-}  
+    padding: 15px;
+}
