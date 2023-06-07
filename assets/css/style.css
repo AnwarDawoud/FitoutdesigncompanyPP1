@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Arial', sans-serif;
     font-size: 20px;
     padding: 0px;
     bottom: 5px;
@@ -33,7 +33,7 @@ header {
 header div {
     color: #ffffcc;
     font-size: x-large;
-    font: Arial;
+    font: 'Arial', sans-serif;
     text-align: center;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -174,7 +174,7 @@ footer p:hover {
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
-    font-family: Arial;
+    font-family: 'Arial', sans-serif;
     font-size: x-large;
     font-weight: 600;
     text-transform: uppercase;
@@ -187,7 +187,7 @@ footer p:hover {
     color: #011f3d;
     padding: 10px 10px;
     border-radius: 5px;
-    font-family: Arial;
+    font-family: 'Arial', sans-serif;
     font-size: x-large;
     font-weight: 600;
     text-transform: uppercase;
