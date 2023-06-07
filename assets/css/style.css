@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     font-size: 20px;
     padding: 0px;
     bottom: 5px;
@@ -35,7 +35,6 @@ header div {
     font-size: x-large;
     font: Arial;
     text-align: center;
-    /* margin-top: -100px; */
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
@@ -75,8 +74,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 1px;
-    /* Adjust margin-top as needed */
-}
+   }
 
 .hero-image {
     max-width: 100%;
@@ -176,7 +174,7 @@ footer p:hover {
     color: white;
     padding: 10px 10px;
     border-radius: 5px;
-    font-family: 'Shantell Sans', sans-serif;
+    font-family: Arial;
     font-size: x-large;
     font-weight: 600;
     text-transform: uppercase;
@@ -189,7 +187,7 @@ footer p:hover {
     color: #011f3d;
     padding: 10px 10px;
     border-radius: 5px;
-    font-family: 'Shantell Sans', sans-serif;
+    font-family: Arial;
     font-size: x-large;
     font-weight: 600;
     text-transform: uppercase;
