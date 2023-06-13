@@ -5,7 +5,7 @@ The website caters to individuals who are seeking professional design services, 
 Visit the deployed website [here](https://anwardawoud.github.io/FitoutdesigncompanyPP1/)
 
 ## Mockup
-![minding mexico mockup image](assets/images/readme-files/Iamresponsive.png)
+![minding mexico mockup image](readme-files/Iamresponsive.png)
 
 
 ## Table of contents
@@ -107,7 +107,7 @@ As a site user of Happy Home Internal Design & Services Company, you can expect 
 understandable way for the user.
 
 * **Header** 
-![Header image](assets/images/readme-files/header.png)
+![Header image](readme-files/header.png)
 
     - The header contains the web logo, a simple desing with the name of the website.
     - The navigation bar with links in that, turns
@@ -115,7 +115,7 @@ understandable way for the user.
     - All pages has same navigation bar, 
 
 * **Footer**
-![footer image](assets/images/readme-files/footer.png)
+![footer image](readme-files/footer.png)
 
     - The footer have the popular social networks, facebook, instagram, youtube and twitter, which open in a new window.
 
@@ -125,7 +125,7 @@ understandable way for the user.
 
     - Hero image 
 
-    ![Hero image](assets/images/readme-files/hero-1.png)
+    ![Hero image](readme-files/hero-1.png)
 
     - Director's Message to the users 
 
@@ -151,11 +151,11 @@ understandable way for the user.
 ### Contactus page
 * Form to submit the users enqueries and to allow them be in touch with company team in detail.
 
-![form-contactus image](assets/images/readme-files/form-contactus.png)
+![form-contactus image](readme-files/form-contactus.png)
 
 * The test of form submition will be shown as following:- 
 
-![contactus-test image](assets/images/readme-files/contactus-test.png)
+![contactus-test image](readme-files/contactus-test.png)
 
 [back to top](#happy-home-internal-design--services-company)
 
@@ -192,27 +192,27 @@ understandable way for the user.
 
 ### Code Validation
 
-![Validation Home page 2](assets/images/readme-files/w3-valid-of-index-page.png)
+![Validation Home page 2](readme-files/w3-valid-of-index-page.png)
 
 *  No errors or warnings to show.
 
-![Validation Aboutus page](assets/images/readme-files/w3-valid-of-aboutus-page.png)
+![Validation Aboutus page](readme-files/w3-valid-of-aboutus-page.png)
 
 * No errors or warnings to show.
 
-![Validation Services page](assets/images/readme-files/w3-valid-of-services-page.png)
+![Validation Services page](readme-files/w3-valid-of-services-page.png)
 
 * No errors or warnings to show.
 
-![Validation Projects page](assets/images/readme-files/w3-valid-of-projects-page.png)
+![Validation Projects page](readme-files/w3-valid-of-projects-page.png)
 
 * No errors or warnings to show.
 
-![Validation Contactus page](assets/images/readme-files/w3-valid-of-contactus-page.png)
+![Validation Contactus page](readme-files/w3-valid-of-contactus-page.png)
 
 * No errors or warnings to show.
 
-![Validation CSS file](assets/images/readme-files/css-validation-jigsaw-w3.png)
+![Validation CSS file](readme-files/css-validation-jigsaw-w3.png)
 
 * No errors Found.
 
@@ -224,47 +224,47 @@ understandable way for the user.
  + Home page:
     - Desktop version:
 
-        ![lighthouse landing page desktop](assets/images/readme-files/access-test-dt-index-page.png)
+        ![lighthouse landing page desktop](readme-files/access-test-dt-index-page.png)
 
     - Mobile version:
 
-        ![lighthouse landing page mobile](assets/images/readme-files/access-test-mob-index-page.png)
+        ![lighthouse landing page mobile](readme-files/access-test-mob-index-page.png)
 
 + Aboutus page:
     - Desktop version:
         
-        ![lighthouse recipe page desktop](assets/images/readme-files/access-test-dt-aboutus-page.png)
+        ![lighthouse recipe page desktop](readme-files/access-test-dt-aboutus-page.png)
     
     - Mobile version:
         
-        ![lighthouse recipe page mobile](assets/images/readme-files/access-test-mob-aboutus-page.png)
+        ![lighthouse recipe page mobile](readme-files/access-test-mob-aboutus-page.png)
 
 + Services page:
     - Desktop version:
 
-        ![lighthouse survey page desktop](assets/images/readme-files/access-test-dt-services-page.png)
+        ![lighthouse survey page desktop](readme-files/access-test-dt-services-page.png)
 
     - Mobile version:
 
-        ![lighthouse survey page mobile](assets/images/readme-files/access-test-mob-services-page.png)
+        ![lighthouse survey page mobile](readme-files/access-test-mob-services-page.png)
 
 + Projects page:
     - Desktop version:
 
-        ![lighthouse survey page desktop](assets/images/readme-files/access-test-dt-projects-page.png)
+        ![lighthouse survey page desktop](readme-files/access-test-dt-projects-page.png)
 
     - Mobile version:
 
-        ![lighthouse survey page mobile](assets/images/readme-files/access-test-mob-projects-page.png)
+        ![lighthouse survey page mobile](readme-files/access-test-mob-projects-page.png)
 
 + Contactus page:
     - Desktop version:
 
-        ![lighthouse survey page desktop](assets/images/readme-files/access-test-dt-contactus-page.png)
+        ![lighthouse survey page desktop](readme-files/access-test-dt-contactus-page.png)
 
     - Mobile version:
 
-        ![lighthouse survey page mobile](assets/images/readme-files/access-test-mob-contactus-page.png)
+        ![lighthouse survey page mobile](readme-files/access-test-mob-contactus-page.png)
 
 ### Tools testing
     
@@ -333,11 +333,11 @@ understandable way for the user.
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Home page | ![Home page desktop](assets/images/readme-files/disktop-home.png) | ![Home page mobile](assets/images/readme-files/mob-home.png)
-Aboutus page | ![Aboutus page desktop](assets/images/readme-files/disktop-aboutus.png) | ![Aboutus page mobile](assets/images/readme-files/mob-aboutus.png)
-Services page | ![Services page desktop](assets/images/readme-files/disktop-services.png) | ![Services page mobile](assets/images/readme-files/mob-services.png)
-Projects page | ![Projects page desktop](assets/images/readme-files/disktop-projects.png) | ![Projects page mobile](assets/images/readme-files/mob-projects.png)
-Contactus page | ![Contactus page desktop](assets/images/readme-files/disktop-contactus.png) | ![Contactus page mobile](assets/images/readme-files/mob-contactus.png)
+Home page | ![Home page desktop](readme-files/disktop-home.png) | ![Home page mobile](readme-files/mob-home.png)
+Aboutus page | ![Aboutus page desktop](readme-files/disktop-aboutus.png) | ![Aboutus page mobile](readme-files/mob-aboutus.png)
+Services page | ![Services page desktop](readme-files/disktop-services.png) | ![Services page mobile](readme-files/mob-services.png)
+Projects page | ![Projects page desktop](readme-files/disktop-projects.png) | ![Projects page mobile](readme-files/mob-projects.png)
+Contactus page | ![Contactus page desktop](readme-files/disktop-contactus.png) | ![Contactus page mobile](readme-files/mob-contactus.png)
 
 
 [Back to top ](#happy-home-internal-design--services-company)
