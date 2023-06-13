@@ -16,7 +16,6 @@
 
 .frame img {
     width: 333px;
-
     margin: 15px;
     border-radius: 15px;
 }
@@ -41,7 +40,7 @@
 .caption h3 {
     font-size: 18px;
     font-weight: bold;
-    margin: 10px;
+    margin: 15px;
     padding: 15px;
 }
 
