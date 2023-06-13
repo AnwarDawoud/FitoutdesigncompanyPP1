@@ -56,7 +56,8 @@ nav li {
 nav a {
     color: #ffffcc;
     text-decoration: none;
-    padding: 20px;
+    padding-bottom: 2px;
+    padding-right: 10px;
 }
 
 nav a:hover {
@@ -73,7 +74,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-   }
+}
 
 .hero-image {
     max-width: 100%;
@@ -85,11 +86,6 @@ nav a:hover {
     height: auto;
     margin-left: 0px;
     margin-left: 0px;
-}
-
-section0 {
-    display: block;
-    margin-left: 45px
 }
 
 section {
@@ -113,7 +109,6 @@ footer p,
 h4 {
     color: #ffffcc;
     text-decoration: none;
-    /* width: 100%; */
     height: auto;
     margin-left: 0px;
     margin-right: 0px;
@@ -123,25 +118,23 @@ h4 {
 
 
 /* Sign up page styling */
-.form-section {
+.form-container {
     clear: both;
     max-width: 800px;
     width: 100%;
-    
+    margin: 45px;
 }
 
 .form {
-    margin: 150px 10% 0 10%;
+    margin: 10px 10% 10% 10%;
     color: #3a3a3a;
     padding: 30px;
     background-color: #f5f5f5;
-      }
 }
 
 .form h2 {
     text-align: center;
 }
-
 .form h3 {
     margin: 10px 0 5px 0;
 }
@@ -193,7 +186,6 @@ h4 {
 }
 
 .contact-container {
-    margin: 0px 100px 100px 100px;
     font-size: large;
     font-style: italic;
     display: flex;
@@ -251,8 +243,64 @@ h4 {
     color: white;
 }
 
-@media (max-width: 768px) {
-    .nav {
-      padding: 10px;
+/* Extra large screens, TV */
+
+@media (min-width: 1301px) {
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 150px;
+        height: auto;
     }
-  }
+
+}
+
+/*  Desktops, large screens */
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 125px;
+        height: auto;
+    }
+}
+
+/* iPads, Tablets */
+
+@media (min-width: 481px) and (max-width: 991px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 100px;
+        height: auto;
+    }
+}
+
+/*  Mobile devices. */
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 75px;
+        height: auto;
+    }
+  
+}
