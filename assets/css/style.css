@@ -88,8 +88,28 @@ nav a:hover {
     margin-left: 0px;
 }
 
-section {
-    margin: 45px
+.director-message {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+.our-services {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+.about-us {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+.our-project {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
 }
 
 /* footer all pages styling */
@@ -119,14 +139,13 @@ h4 {
 
 /* Sign up page styling */
 .form-container {
-    clear: both;
-    max-width: 800px;
-    width: 100%;
-    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
 }
 
 .form {
-    margin: 10px 10% 10% 10%;
     color: #3a3a3a;
     padding: 30px;
     background-color: #f5f5f5;
@@ -135,6 +154,7 @@ h4 {
 .form h2 {
     text-align: center;
 }
+
 .form h3 {
     margin: 10px 0 5px 0;
 }
@@ -185,13 +205,6 @@ h4 {
     text-decoration: none;
 }
 
-.contact-container {
-    font-size: large;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /** social media icons**/
 .social-networks {
@@ -302,5 +315,5 @@ h4 {
         width: 75px;
         height: auto;
     }
-  
+
 }
