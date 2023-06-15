@@ -5,7 +5,7 @@ The website caters to individuals who are seeking professional design services, 
 Visit the deployed website [here](https://anwardawoud.github.io/FitoutdesigncompanyPP1/)
 
 ## Mockup
-![minding mexico mockup image](readme-files/Iamresponsive.png)
+![Happy Home Internal Design & Services Company](readme-files/iamresponsive.png)
 
 
 ## Table of contents
@@ -14,6 +14,7 @@ Visit the deployed website [here](https://anwardawoud.github.io/Fitoutdesigncomp
     * [Project Goals](#project-goals)
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
+    * [Wireframes](#Wireframes)
     * [Users stories](#users-stories)
  2. [Features](#features)
     * [General](#general)
@@ -79,21 +80,34 @@ By specifying 'sans-serif' as a fallback option, we ensure that if Arial is not 
 
 Overall, the font-family 'Arial', sans-serif is a reliable choice for web typography, offering readability and compatibility across different platforms
 
+### Wireframes
+![home](readme-files/wireframes/wireframe-home-page.png)
+
+![aboutus](readme-files/wireframes/wireframe-about-us-page.png)
+
+![services](readme-files/wireframes/wireframe-services-page.png)
+
+![projects](readme-files/wireframes/wireframe-projects-page.png)
+
+![contactus](readme-files/wireframes/wireframe-contact-us-page.png)
+
+
 ### Users stories
 
-As a site user of Happy Home Internal Design & Services Company, you can expect the following:
+## User Story
 
-* Visually appealing and user-friendly website: The website is designed to be visually pleasing and easy to navigate, allowing users to explore the company's offerings and services effortlessly.
+As a potential customer of Happy Home Internal Design & Services, I want to be able to easily browse and explore the services they offer and find inspiration for my own interior design projects.
 
-* Detailed information about services: will find comprehensive information about the company's services, including interior design, reconstruction, furniture selection, and more. This will give you a clear understanding of what they offer and how they can assist you in creating your ideal living space.
+### Acceptance Criteria
 
-* Showcase of previous projects: The website may feature a portfolio or gallery showcasing the company's previous design projects. This will give you a chance to see our work and get inspired by their designs and style.
-
-* Contact and communication options: The website will provide contact information such as email addresses, phone numbers, or a contact form. the user can use these channels to get in touch with the company and discuss your design needs or schedule a consultation.
-
-* Access to resources and additional information: The website may provide additional resources such as design tips, blog articles, or informative content related to interior design and home improvement. This can be helpful in gaining knowledge and ideas for your own projects.
-
-* Responsive design: The website is responsive, meaning it adapts to different screen sizes and devices. Whether user browsing on a desktop, laptop, tablet, or mobile phone, the website should provide an optimal viewing experience.
+- When I visit the Happy Home website, I expect to be greeted with an appealing and user-friendly interface.
+- I should be able to navigate through the different pages of the website seamlessly, such as the Home, About Us, Services, Projects, and Contact Us pages.
+- On the Services page, I want to see a clear and concise introduction to Happy Home's mission and services.
+- The Services page should provide detailed information about the various interior design services offered, such as interior decoration, remodeling, furniture selection, and more.
+- The Projects page should showcase a gallery of stunning design projects completed by Happy Home, giving me inspiration and an idea of their design capabilities.
+- When I click on a specific project, I should be able to view image of that project.
+- The Contact Us page should include a contact form where I can easily submit my inquiries or request a consultation.
+- I expect the website to be responsive and optimized for different devices, including desktops, tablets, and mobile phones.
 
 [back to top](#happy-home-internal-design--services-company)
 
@@ -167,6 +181,10 @@ understandable way for the user.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries and Programs Used
+
+*  [balsamiq](https://balsamiq.cloud/)
+
+     - Balsamiq was used for creating wireframes
 
 * [CA](https://app.codeanywhere.com/)
      - Codeanywhere was used for writing code, committing, and then pushing to GitHub.
@@ -277,7 +295,46 @@ understandable way for the user.
 
 ### Testing stories
 
-* Expectations by users been tested at all stages and complied.
+* User Story: As a user, I want to be greeted with an appealing and user-friendly interface when I visit the Happy Home website.
+
+   - Test: Open the Happy Home website.
+        - Expected Result: **Complied**
+
+* User Story: As a user, I want to navigate through the different pages of the website seamlessly.
+
+    - Test: Click on the navigation links for the Home, About Us, Services, Projects, and Contact Us pages.
+        - Expected Result: **Complied**
+
+* User Story: As a user, I expect to see a clear and concise introduction to Happy Home's mission and services on the Home page.
+
+    - Test: Go to the Services page and read the content.
+        - Expected Result: **Complied**
+
+* User Story: As a user, I want the Services page to provide detailed information about the various interior design services offered by Happy Home.
+
+    - Test: Go to the Services page and read the content. The Services page should provide detailed information about the various interior design services offered by Happy Home, such as interior decoration, remodeling, furniture selection, and more.
+    
+        - Expected Result: **Complied**
+
+* User Story: As a user, I expect the Projects page to showcase a gallery of stunning design projects completed by Happy Home.
+
+    - Test: Go to the Projects page and view the gallery. The Projects page should showcase a gallery of stunning design projects completed by Happy Home, providing inspiration and showcasing their design capabilities.
+        - Expected Result: **Complied**
+
+* User Story: As a user, I should be able to view more details and images of a specific project when I click on it.
+
+    - Test: Click on a specific project in the gallery. The website should display images of the selected project.
+        - Expected Result: **Complied**
+
+* User Story: As a user, I want the Contact Us page to include a contact form for submitting inquiries or requesting a consultation.
+
+    - Test: Go to the Contact Us page and locate the contact form. The Contact Us page should include a contact form that allows users to easily submit their inquiries or request a consultation.
+        - Expected Result: **Complied**
+
+* User Story: As a user, I expect the website to be responsive and optimized for different devices.
+
+    - Test: Open the website on different devices, including desktops, tablets, and mobile phones.
+        - Expected Result: **Complied**
 
 ### Manual testing
 
